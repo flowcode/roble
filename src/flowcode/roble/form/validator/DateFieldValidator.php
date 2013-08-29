@@ -1,15 +1,13 @@
 <?php
 
-use flowcode\wing\form\validator\Validator;
-
-namespace flowcode\wing\form\validator;
+namespace flowcode\roble\form\validator;
 
 /**
  * Description of StringFieldValidator.
  *
  * @author juanma
  */
-class DateFieldValidator implements Validator {
+class DateFieldValidator implements IValidator {
 
     private $maxlength;
     private $minlength;

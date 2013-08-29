@@ -1,15 +1,15 @@
 <?php
 
-use flowcode\wing\form\validator\Validator;
+namespace flowcode\roble\form;
 
-namespace flowcode\wing\form;
+use flowcode\roble\form\validator\IValidator;
 
 /**
  * BaseClass for user forms.
  *
  * @author Juan Manuel Agüero <jaguero@flowcode.com.ar>
  */
-class Form {
+class BaseForm {
 
     protected $fields;
     protected $validators;
@@ -50,7 +50,7 @@ class Form {
     /**
      * Add a Validator for a field correspondant to its name.
      * @param String $fieldname
-     * @param Validator $validator 
+     * @param IValidator $validator 
      */
     public function addValidator($fieldname, $validator) {
         $this->validators[$fieldname][] = $validator;

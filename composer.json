@@ -1,6 +1,6 @@
 {
-    "name": "flowcode/wing-form",
-    "description": "Wing Framework Form package",
+    "name": "flowcode/roble",
+    "description": "PHP MicroFramework for form building and validation",
     "authors": [
         {
             "name": "Juan Manuel Agüero",

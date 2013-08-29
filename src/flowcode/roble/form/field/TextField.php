@@ -1,27 +1,23 @@
 <?php
 
-use flowcode\wing\form\field\BaseField;
-
-namespace flowcode\wing\form\field;
+namespace flowcode\roble\form\field;
 
 /**
  * Description of SelectField
  *
  * @author juanma
  */
-class InputField extends BaseField {
+class TextField extends BaseField {
 
     public function __toString() {
-        $html = "<input ";
+        $html = "<textarea ";
         $html .= "name='" . $this->name . "' ";
         foreach ($this->attributes as $key => $value) {
             $html .= "$key='$value' ";
         }
-
-
-        $html .= "value='" . $this->value . "'";
-
         $html .= "/>";
+        $html .= $this->value;
+        $html .= "</textarea>";
 
         return $html;
     }

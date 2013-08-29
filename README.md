@@ -1,4 +1,6 @@
-Wing Framework Form Package
+Roble
 ======
 
-Wing, Light PHP Framework
+PHP microframework for form building and validation
+
+part of Wing Framework

@@ -1,15 +1,13 @@
 <?php
 
-use flowcode\wing\form\validator\Validator;
-
-namespace flowcode\wing\form\validator;
+namespace flowcode\roble\form\validator;
 
 /**
  * Description of MailValidator
  *
  * @author juanma
  */
-class MailValidator implements Validator {
+class MailValidator implements IValidator {
 
     protected $valid = FALSE;
 

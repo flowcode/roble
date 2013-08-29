@@ -1,12 +1,12 @@
 <?php
 
-namespace flowcode\wing\form\validator;
+namespace flowcode\roble\form\validator;
 
 /**
  *
  * @author juanma
  */
-interface Validator {
+interface IValidator {
 
     public function isValid();
 
