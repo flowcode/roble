@@ -1,6 +1,7 @@
 {
     "name": "flowcode/roble",
     "description": "PHP MicroFramework for form building and validation",
+    "license": "MIT",
     "authors": [
         {
             "name": "Juan Manuel Agüero",
